@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juice N Joy</title>
+    <link rel="icon" type="jpeg" href="logoI.jpeg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <img src="logoI.jpeg" alt="logo" height="30">
+            <!-- <a class="navbar-brand" href="#">JuiceNJoy</a> -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Explore the Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Order Now</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            About Us
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#services">Our Services</a></li>
+                            <li><a class="dropdown-item" href="#contact">Contact Us</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#feedback">Feedback</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search Your Delight"
+                        aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="px-4 pt-5 my-5 text-center border-bottom"
+        style="background-image:  linear-gradient(to bottom right, rgb(0 255 196), rgb(227 225 153));">
+        <h1 class="display-4 fw-bold text-body-emphasis">Welcome to <br>JuiceNJoy</h1>
+        <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">Indulge in the vibrant world of flavors and wellness as you step into our oasis of
+                fresh, tantalizing juices. At juiceNjoy, we're dedicated to crafting a symphony of taste and health, all
+                bottled up for your delight.
+
+                <br>🍏 Sip on the crispness of hand-picked apples, the essence of nature's sweetness.
+                <br>🍊 Immerse yourself in the zesty embrace of sun-kissed oranges, a burst of energy in every drop.
+                <br>🍓 Let the succulent strawberries dance on your palate, a celebration of juiciness and vitality.
+            </p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+                <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Order Now</button>
+            </div>
+        </div>
+        <div class="overflow-hidden" style="max-height: 30vh;">
+
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="slideI.jpeg" class="d-block w-100" alt="Lemonades" height="470px">
+                </div>
+                <div class="carousel-item">
+                    <img src="slideII.jpeg" class="d-block w-100" alt="Shakes">
+                </div>
+                <div class="carousel-item">
+                    <img src="slideIII.jpeg" class="d-block w-100" alt="Mojitos">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+
+
+    <section>
+        <div class="container my-5">
+            <header class="mb-4">
+                <h3 id="menu">Our Delights</h3>
+            </header>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6 d-flex">
+                    <div class="card w-100 my-2 shadow-2-strong">
+                        <img src="Couples Delight.jpg" alt="Couples Delight" class="card-img-top"
+                            style="aspect-ratio: 1 / 1" />
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Couples Delight</h5>
+                            <p class="card-text">₹330.00</p>
+                            <div class="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
+                                <a href="#!" class="btn btn-primary shadow-0 me-1">Add to cart</a>
+                                <a href="#!" class="btn btn-light border px-2 pt-2 icon-hover"><i
+                                        class="fas fa-heart fa-lg text-secondary px-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 d-flex">
+                    <div class="card w-100 my-2 shadow-2-strong">
+                        <img src="Blue Lagoon.jpg" alt="Blue Lagoon" class="card-img-top" style="aspect-ratio: 1 / 1" />
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Blue Lagoon</h5>
+                            <p class="card-text">₹149.00</p>
+                            <div class="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
+                                <a href="#!" class="btn btn-primary shadow-0 me-1">Add to cart</a>
+                                <a href="#!" class="btn btn-light border px-2 pt-2 icon-hover"><i
+                                        class="fas fa-heart fa-lg text-secondary px-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 d-flex">
+                    <div class="card w-100 my-2 shadow-2-strong">
+                        <img src="Blackbeery Mojito.jpg" alt="Blackbeery Mojito" class="card-img-top"
+                            style="aspect-ratio: 1 / 1" />
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Blackbeery Mojito</h5>
+                            <p class="card-text">₹135.00</p>
+                            <div class="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
+                                <a href="#!" class="btn btn-primary shadow-0 me-1">Add to cart</a>
+                                <a href="#!" class="btn btn-light border px-2 pt-2 icon-hover"><i
+                                        class="fas fa-heart fa-lg text-secondary px-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 d-flex">
+                    <div class="card w-100 my-2 shadow-2-strong">
+                        <img src="Mint Taquila.jpg" alt="Mint Taquila" class="card-img-top"
+                            style="aspect-ratio: 1 / 1" />
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Mint Taquila</h5>
+                            <p class="card-text">₹175.00</p>
+                            <div class="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
+                                <a href="#!" class="btn btn-primary shadow-0 me-1">Add to cart</a>
+                                <a href="#!" class="btn btn-light border px-2 pt-2 icon-hover"><i
+                                        class="fas fa-heart fa-lg text-secondary px-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 d-flex">
+                    <div class="card w-100 my-2 shadow-2-strong">
+                        <img src="Mix Fruit.jpg" alt="Mix Fruit" class="card-img-top" style="aspect-ratio: 1 / 1" />
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Mix Fruit</h5>
+                            <p class="card-text">145.00</p>
+                            <div class="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
+                                <a href="#!" class="btn btn-primary shadow-0 me-1">Add to cart</a>
+                                <a href="#!" class="btn btn-light border px-2 pt-2 icon-hover"><i
+                                        class="fas fa-heart fa-lg text-secondary px-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 d-flex">
+                    <div class="card w-100 my-2 shadow-2-strong">
+                        <img src="Strawberry Delight.jpg" alt="Strawberry Delight" class="card-img-top"
+                            style="aspect-ratio: 1 / 1" />
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Strawberry Delight</h5>
+                            <p class="card-text">₹150.00</p>
+                            <div class="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
+                                <a href="#!" class="btn btn-primary shadow-0 me-1">Add to cart</a>
+                                <a href="#!" class="btn btn-light border px-2 pt-2 icon-hover"><i
+                                        class="fas fa-heart fa-lg text-secondary px-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 d-flex">
+                    <div class="card w-100 my-2 shadow-2-strong">
+                        <img src="Strawberry Lemonade.jpg" alt="Strawberry Lemonade" class="card-img-top"
+                            style="aspect-ratio: 1 / 1" />
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Strawberry Lemonade</h5>
+                            <p class="card-text">₹135.00</p>
+                            <div class="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
+                                <a href="#!" class="btn btn-primary shadow-0 me-1">Add to cart</a>
+                                <a href="#!" class="btn btn-light border px-2 pt-2 icon-hover"><i
+                                        class="fas fa-heart fa-lg text-secondary px-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 d-flex">
+                    <div class="card w-100 my-2 shadow-2-strong">
+                        <img src="Apple Smoothie.jpg" alt="Apple Smoothie" class="card-img-top"
+                            style="aspect-ratio: 1 / 1" />
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Apple Smoothie</h5>
+                            <p class="card-text">₹120.00</p>
+                            <div class="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
+                                <a href="#!" class="btn btn-primary shadow-0 me-1">Add to cart</a>
+                                <a href="#!" class="btn btn-light border px-2 pt-2 icon-hover"><i
+                                        class="fas fa-heart fa-lg text-secondary px-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 d-flex">
+                    <div class="card w-100 my-2 shadow-2-strong">
+                        <img src="Watermellon Shake.jpg" alt="Watermellon Shake" class="card-img-top"
+                            style="aspect-ratio: 1 / 1" />
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Watermellon Shake</h5>
+                            <p class="card-text">₹120.00</p>
+                            <div class="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
+                                <a href="#!" class="btn btn-primary shadow-0 me-1">Add to cart</a>
+                                <a href="#!" class="btn btn-light border px-2 pt-2 icon-hover"><i
+                                        class="fas fa-heart fa-lg text-secondary px-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 d-flex">
+                    <div class="card w-100 my-2 shadow-2-strong">
+                        <img src="Watermellon Taquila.jpg" alt="Watermellon Taquila" class="card-img-top"
+                            style="aspect-ratio: 1 / 1" />
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Watermellon Taquila</h5>
+                            <p class="card-text">₹129.00</p>
+                            <div class="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
+                                <a href="#!" class="btn btn-primary shadow-0 me-1">Add to cart</a>
+                                <a href="#!" class="btn btn-light border icon-hover px-2 pt-2"><i
+                                        class="fas fa-heart fa-lg text-secondary px-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 d-flex">
+                    <div class="card w-100 my-2 shadow-2-strong">
+                        <img src="Mango Shake.jpg" alt="Mango Shake" class="card-img-top" style="aspect-ratio: 1 / 1" />
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Mango Shake</h5>
+                            <p class="card-text">₹119.00</p>
+                            <div class="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
+                                <a href="#!" class="btn btn-primary shadow-0 me-1">Add to cart</a>
+                                <a href="#!" class="btn btn-light border icon-hover px-2 pt-2"><i
+                                        class="fas fa-heart fa-lg text-secondary px-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 d-flex">
+                    <div class="card w-100 my-2 shadow-2-strong">
+                        <img src="Kiwi Lime Mojito.png" alt="Kiwi Lime Mojito" class="card-img-top"
+                            style="aspect-ratio: 1 / 1" />
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Kiwi Lime Mojito</h5>
+                            <p class="card-text">₹135.00</p>
+                            <div class="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
+                                <a href="#!" class="btn btn-primary shadow-0 me-1">Add to cart</a>
+                                <a href="#!" class="btn btn-light border icon-hover px-2 pt-2"><i
+                                        class="fas fa-heart fa-lg text-secondary px-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 d-flex">
+                    <div class="card w-100 my-2 shadow-2-strong">
+                        <img src="Raspberry.jpg" alt="Raspberry Smoothie" class="card-img-top"
+                            style="aspect-ratio: 1 / 1" />
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Raspberry Smoothie</h5>
+                            <p class="card-text">₹140.00</p>
+                            <div class="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
+                                <a href="#!" class="btn btn-primary shadow-0 me-1">Add to cart</a>
+                                <a href="#!" class="btn btn-light border icon-hover px-2 pt-2"><i
+                                        class="fas fa-heart fa-lg text-secondary px-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 d-flex">
+                    <div class="card w-100 my-2 shadow-2-strong">
+                        <img src="Pappya Mojito.jpeg" alt="Pappya Mojito" class="card-img-top"
+                            style="aspect-ratio: 1 / 1" />
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Pappya Mojito</h5>
+                            <p class="card-text">₹115.00</p>
+                            <div class="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
+                                <a href="#!" class="btn btn-primary shadow-0 me-1">Add to cart</a>
+                                <a href="#!" class="btn btn-light border icon-hover px-2 pt-2"><i
+                                        class="fas fa-heart fa-lg text-secondary px-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 d-flex">
+                    <div class="card w-100 my-2 shadow-2-strong">
+                        <img src="Dragon Fruit Smoothie.jpeg" alt="Dragon Fruit Smoothie" class="card-img-top"
+                            style="aspect-ratio: 1 / 1" />
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Dragon Fruit Smoothie</h5>
+                            <p class="card-text">₹160.00</p>
+                            <div class="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
+                                <a href="#!" class="btn btn-primary shadow-0 me-1">Add to cart</a>
+                                <a href="#!" class="btn btn-light border icon-hover px-2 pt-2"><i
+                                        class="fas fa-heart fa-lg text-secondary px-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 d-flex">
+                    <div class="card w-100 my-2 shadow-2-strong">
+                        <img src="Tomato Delight.jpg" alt="Tomato Delight" class="card-img-top"
+                            style="aspect-ratio: 1 / 1" />
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Tomato Delight</h5>
+                            <p class="card-text">₹110.00</p>
+                            <div class="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
+                                <a href="#!" class="btn btn-primary shadow-0 me-1">Add to cart</a>
+                                <a href="#!" class="btn btn-light border icon-hover px-2 pt-2"><i
+                                        class="fas fa-heart fa-lg text-secondary px-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-6 d-flex">
+                        <div class="card w-100 my-2 shadow-2-strong">
+                            <img src="Banana Smoothy.jpg" alt="Banana Smoothie" class="card-img-top"
+                                style="aspect-ratio: 1 / 1" />
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Banana Smoothie</h5>
+                                <p class="card-text">₹119.00</p>
+                                <div class="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
+                                    <a href="#!" class="btn btn-primary shadow-0 me-1">Add to cart</a>
+                                    <a href="#!" class="btn btn-light border px-2 pt-2 icon-hover"><i
+                                            class="fas fa-heart fa-lg text-secondary px-1"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 d-flex">
+                        <div class="card w-100 my-2 shadow-2-strong">
+                            <img src="Pinaple.jpg" alt="Pinaple Smoothie" class="card-img-top"
+                                style="aspect-ratio: 1 / 1" />
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Pinaple Smoothie</h5>
+                                <p class="card-text">₹120.00</p>
+                                <div class="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
+                                    <a href="#!" class="btn btn-primary shadow-0 me-1">Add to cart</a>
+                                    <a href="#!" class="btn btn-light border px-2 pt-2 icon-hover"><i
+                                            class="fas fa-heart fa-lg text-secondary px-1"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 d-flex">
+                        <div class="card w-100 my-2 shadow-2-strong">
+                            <img src="Avocado Delight.jpg" alt="Avocado Delight" class="card-img-top"
+                                style="aspect-ratio: 1 / 1" />
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Avocado Delight</h5>
+                                <p class="card-text">₹130.00</p>
+                                <div class="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
+                                    <a href="#!" class="btn btn-primary shadow-0 me-1">Add to cart</a>
+                                    <a href="#!" class="btn btn-light border px-2 pt-2 icon-hover"><i
+                                            class="fas fa-heart fa-lg text-secondary px-1"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 d-flex">
+                        <div class="card w-100 my-2 shadow-2-strong">
+                            <img src="Orange Smoothie.jpeg" alt="Orange Smoothie" class="card-img-top"
+                                style="aspect-ratio: 1 / 1" />
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Orange Smoothie</h5>
+                                <p class="card-text">₹125.00</p>
+                                <div class="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
+                                    <a href="#!" class="btn btn-primary shadow-0 me-1">Add to cart</a>
+                                    <a href="#!" class="btn btn-light border px-2 pt-2 icon-hover"><i
+                                            class="fas fa-heart fa-lg text-secondary px-1"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+    <div class="container px-4 py-5" id="custom-cards">
+        <h2 class="pb-2 border-bottom" id="services">Our Services</h2>
+
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+            <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                    style="background-image: url('unsplash-photo-1.jpg');">
+                    <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                        <h3 class="mb-4 display-6 lh-1 fw-bold">Express Delivery Just on Time</h3>
+                        <ul class="d-flex list-unstyled mt-auto">
+                            <li class="me-auto">
+                                <img src="Express delivery.jpg" alt="Bootstrap" width="70" height="70"
+                                    class="rounded-circle border border-white">
+                            </li>
+                            <li class="d-flex align-items-center me-3">
+                                <svg class="bi me-2" width="1em" height="1em">
+                                    <use xlink:href="#geo-fill"></use>
+                                </svg>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <svg class="bi me-2" width="1em" height="1em">
+                                    <use xlink:href="#calendar3"></use>
+                                </svg>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                    style="background-image: url('unsplash-photo-2.jpg');">
+                    <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                        <h3 class="mb-4 display-6 lh-1 fw-bold">Special Discount & Offers Everyday</h3>
+                        <ul class="d-flex list-unstyled mt-auto">
+                            <li class="me-auto">
+                                <img src="special discount.jpg" alt="Bootstrap" width="70" height="70"
+                                    class="rounded-circle border border-white">
+                            </li>
+                            <li class="d-flex align-items-center me-3">
+                                <svg class="bi me-2" width="1em" height="1em">
+                                    <use xlink:href="#geo-fill"></use>
+                                </svg>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <svg class="bi me-2" width="1em" height="1em">
+                                    <use xlink:href="#calendar3"></use>
+                                </svg>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                    style="background-image: url('unsplash-photo-3.jpg');">
+                    <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                        <h3 class="mb-4 display-6 lh-1 fw-bold">Cash on Delivery Just on Your Door Step</h3>
+                        <ul class="d-flex list-unstyled mt-auto">
+                            <li class="me-auto">
+                                <img src="cod.png" alt="Bootstrap" width="70" height="70"
+                                    class="rounded-circle border border-white">
+                            </li>
+                            <li class="d-flex align-items-center me-3">
+                                <svg class="bi me-2" width="1em" height="1em">
+                                    <use xlink:href="#geo-fill"></use>
+                                </svg>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <svg class="bi me-2" width="1em" height="1em">
+                                    <use xlink:href="#calendar3"></use>
+                                </svg>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <footer class="py-5">
+            <div class="row">
+                <div class="col-6 col-md-2 mb-3">
+                    <h5 id="contact">Contact US</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><b>Email:</b> juicenjoy2023@gmail.com</li>
+                        <li class="nav-item mb-2"><b>Phone No: </b>+01 1234567891</li>
+                        <li class="nav-item mb-2"><b>Address: </b>
+                            <address> JuiceNJoy. <br>132, My Street, Kingston,<br> New York 12401.</address>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-5 offset-md-1 mb-3">
+                    <form>
+                        <h5 id="feedback">Share Your Feedback</h5>
+                        <p>Your Experience is What Makes us Better...</p>
+                        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                            <label for="newsletter1" class="visually-hidden">Email address</label>
+                            <input id="newsletter1" type="text" class="form-control" placeholder="Your Feedback">
+                            <button class="btn btn-primary" type="button">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                <p>© 2023 JuiceNJoy, Inc. All rights reserved.</p>
+                <ul class="list-unstyled d-flex">
+                    <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+                                <use xlink:href="#twitter"></use>
+                            </svg></a></li>
+                    <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+                                <use xlink:href="#instagram"></use>
+                            </svg></a></li>
+                    <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+                                <use xlink:href="#facebook"></use>
+                            </svg></a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
